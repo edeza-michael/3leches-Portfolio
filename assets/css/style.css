@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #92aa83;
+    --secondary-color:#f1f7ee;
+    --tertiary-color: #b0bea9;
+    --accessory-color-1: #e0edc5;
+    --accessory-color-2: #e7f59e;
+}
+header {
+    align-content: flex-start;
+    padding: 30px 50px;
+    background-color: #b0bea9;
+    justify-content: center;
+}
+header h1 {
+    font-family: 'Fjalla One, sans-serif';
+    font-weight: bold;
+    color: #f1f7ee;
+}
+header nav  {
+   margin: 10px;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    color: #f1f7ee;
+}
+
+.section-title h2 {
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 3px solid #e7f59e;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 30px auto;
+    width: 25%;
+    font-size: 36px;
+}
+.about-me {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+
+.about-me-bio {
+    text-align: right;
+    width: 45%;
+    margin: 2%;
+    color: #92aa83;
+    font-size: 18px;
+}
