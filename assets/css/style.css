@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 :root {
     --primary-color: #b5d6b2;
     --secondary-color:#fffacc;
@@ -5,3 +10,73 @@
     --accessory-color-1: #0c7c59;
     --accessory-color-2: #d64933;
 }
+
+/* Utilities */
+.flex-row {
+    display: flex ;
+}
+
+/* body */
+body {
+    color: var(--tertiary-color);
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* header */
+header {
+    padding: 15px 40px;
+    background-color: var(--accessory-color-1);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header #name {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 10px 0;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 2.5vw;
+}
+header nav ul li a:hover {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+}
+/* section titles */
+.section-title {
+    font-size: 40px;
+    color: var(--accessory-color-1);
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 auto 35px auto;
+    border-bottom: 3px solid var(--accessory-color-2);
+    width: 35%;
+}
+
+/* About-Me */
+
+
+/* Projects */
+
+/* Contact */
+
+/* Footer */
