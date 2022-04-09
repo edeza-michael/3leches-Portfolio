@@ -114,13 +114,6 @@ header nav ul li a:hover {
     font-size: 18px;
     flex-wrap: wrap;
 }
-.contact-info address {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px 10px;
-}
-
-
 .social-media {
     display: flex;
     flex-wrap: wrap;
@@ -156,3 +149,11 @@ header nav ul li a:hover {
     margin-left: 15px;
 }
 /* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: var(--accessory-color-1);
+}
