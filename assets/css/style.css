@@ -147,7 +147,7 @@ header nav ul li a:hover {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 
 .my-info p address {
@@ -166,6 +166,11 @@ header nav ul li a:hover {
     height: 150px;
     width: 150px;
     padding: 25px;
+    opacity: 0.5;
+}
+.social-media-btn:hover {
+    opacity: 1;
+    color: var(--primary-color);
 }
 .social-media-btn h3 {
     text-align: center;
@@ -176,6 +181,7 @@ header nav ul li a:hover {
     height: 100px;
     justify-content: center;
 }
+
 .music h3 {
     text-align: center;
     font-size: 24px;
