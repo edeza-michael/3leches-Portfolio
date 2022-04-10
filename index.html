@@ -4,102 +4,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" >
-    <title>Michael Edeza-Salvant</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css"
 </head>
 <body>
     <header>
-        <h1>Welcome to the Party!</h1>
-        <nav>
-            <ul>
-                <!-- links to sections; about me, work/projects, contact info -->
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#the-work">The Work</a>
-                </li>
-                <li>
-                    <a href="#contact-info">Contact Info</a>
-                </li>
-            </ul>
-        </nav>
+        <div id="name">
+            <h1>Michael Edeza-Salvant</h1>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <!-- About Them, their work, and how to contact -->
+                    <li>
+                        <a href="#About-Me">About Me</a>
+                    </li>
+                    <li>
+                       <a href="#Projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section class="hero"></section>
-    <section class="about-me">
-        <div class="">
-            <h2>About Me</h2>
-        </div>
-        <div class="text-box">
-            <h3>Michael Edeza-Salvant</h3>
-                <p>
-                    Hi! I currently work as a Kindergarten Teacher in Oakland, California. At this time I am learning the fundamentals of becoming a fullstack web-designer learning skills in html and css. Alongside many other languages that will prepare me for work in the future. Thanks for stopping by!
-                </p>
-        </div>
-        <div class="about-me-img">
-            <img src="" alt="" />
-        </div>
-    </section>
-    <section class="the-work">
-        <div class="">
-            <h2>The Work</h2>
-        </div>
-        <div class="projects">
-            <article class="project">
-                <div class="app-bio">
-                    <h3>Run Buddy</h3>
-                    <h4>Languge</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque aliquid quas voluptatibus asperiores nostrum expedita veritatis nemo maiores blanditiis consequuntur! Assumenda magnam doloribus autem hic est modi delectus veritatis? Exercitationem.</p>
-                </div>
-            </article>
-            <article>
-                <div class="app-bio">
-                    <h3>Robot Gladiators</h3>
-                    <h4>Languge</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil praesentium cumque, fugiat expedita iure qui est ab. Consequuntur officiis, ratione nulla fugit aliquam laudantium, quasi sit id quaerat doloremque error?</p>
-                </div>
-            </article>
-            <article>
-                <div class="app-bio">
-                    <h3>Project Name-3</h3>
-                    <h4>Languge</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam magnam quae debitis sed temporibus. Quidem ipsam sequi reprehenderit ducimus saepe cum doloribus, asperiores officiis architecto molestiae hic impedit pariatur modi.</p>
-                </div>
-            </article>
-        </div>
-    </section>
-    <section class="contact">
-        <div>
-            <h2>Reach Me</h2>
-        </div>
-        <div class="contact-info">
-            <h3>Michael Edeza-Salvant</h3>
-            <address>
-                Phone: 999.999.9999
-                Email: <a href="mailto:edezamichael@gmail.com">edezamichael@gmail.com</a>
-            </address>
-        </div>
-        <div class="contact-info">
-            <ul>
-                <li>
-                    GitHub: <a href="">GitHub</a>
-                </li>
-                <li>
-                    Spotify: <a href="">Spotify</a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <footer>
-        <h2>Out here doing the thing</h2>
-        <div>
-            &copy; 2022 3leches Coding
-        </div>
-    </footer>
-    <!-- clicking on links work -->
-    <!-- include animations such as hover, and on click type functions -->
-    <!-- clicking on items, they grow to be bigger than the other items -->
-    <!-- Resize the page on various devices and should still work -->
     
+    <main>
+        <section id="About-Me" >
+            <div class=" flex-row">
+                <h2 class="section-title">
+                    About Me
+                </h2>
+            </div>
+            <div class="about-me-box">
+                <div class="bio">
+                    <h3>Meet Michael</h3>
+                    <p>Hey! I am Michael Edeza-Salvant, currently a Kindergarten Teacher in the Bay Area. 
+                    I am enrolled in a Coding BootCamp, where I am learning the skills to become a web-developer.  
+                    As I progress I hope to combine my two interest together and get an opportunity to work in edTech. 
+                    Thank you for stopping by, if there are any questions please reach out!</p>
+                </div>
+                <div class="ME">
+                    <img src="./assets/images/IMG_5209.JPG" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <section id="Projects">
+            <div class=" flex-row">
+                <h2 class="section-title">
+                    Projects
+                </h2>
+            </div>
+            <div class="container">
+                <a href="https://edeza-michael.github.io/run-buddy/">
+                    <div class="p-card">
+                        <article id="run-buddy">
+                            <h3>Run Buddy</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius error quibusdam, illum modi ipsam repellendus ab totam nemo voluptatibus? Itaque laborum temporibus vitae illum eum, velit assumenda perferendis! Aperiam, earum.</p>
+                        </article>
+                    </div>
+                </a>
+         
+                <div class="p-card">
+                    <article id="robot-gladiators">
+                        <h3>Robot Gladiators</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id recusandae voluptate hic eum perspiciatis illo ab nostrum modi, ipsam eveniet saepe expedita magnam et laudantium eligendi natus necessitatibus eos exercitationem!</p>
+                    </article>
+                </div>
+        
+                <div class="p-card">
+                    <article id="taskinator">
+                        <h3>Taskinator</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos reprehenderit dignissimos voluptates non modi nihil libero qui accusantium temporibus voluptate eum eaque molestias nemo odio, sapiente perspiciatis eveniet ex blanditiis!</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <div class="flex-row">
+                <h2 class="section-title">
+                    Contact
+                </h2>
+            </div>
+            <div class="contact-box">
+                <div class="music">
+                    <h3>My Top Songs of 2021!</h3>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EUMDoJuT8yJsl?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                </div>
+                <div class="my-info">
+                        <h3>
+                            My Info
+                        </h3>
+                        <p>
+                            Thank you so much for visiting, if there are any questions please do not hesitate to reach out.
+                        </p>
+                        <address>
+                        </br>
+                            Phone: 831-578-8798 
+                        </br>
+                            Email: <a href="mailto:edezamichael@gmail.com">edezamichael@gmail.com</a>
+                        </address>
+                </div>
+                <div class="social-media">
+                        <div class="social-media-btn">
+                            <div class="social-media-logo">
+                                <a href="https://twitter.com/medeza_salvant">
+                                    <img src="./assets/images/iconmonstr-twitter-4-240.png" alt="Twitter Logo">
+                                </a>
+                            </div>
+                            <h3>Twitter</h3>
+                        </div>
+                        <div class="social-media-btn">
+                            <div class="social-media-logo">
+                                <a href="https://www.instagram.com/miguel3leches/">
+                                    <img src="./assets/images/iconmonstr-instagram-11-240.png" alt="Instagram Logo">
+                                </a>
+                            </div>
+                            <h3>Instagram</h3>
+                        </div>
+                        <div class="social-media-btn">
+                            <div class="social-media-logo">
+                                <a href="https://github.com/edeza-michael">
+                                    <img src="./assets/images/iconmonstr-github-1-240.png" alt="GitHub Logo">
+                                </a>
+                            </div>
+                            <h3>GitHub</h3>
+                        </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<footer>
+    <h2>Michael Edeza-Salvant</h2>
+    <p>&copy; 2022 3 Leches LLC.</p>
+</footer>
 </body>
 </html>
